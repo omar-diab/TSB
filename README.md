@@ -1,12 +1,12 @@
 # 🍔 The Sunday Bite - Landing Page Website
 
-> Built by Interns in Just 8 Days — From Zero to Impressive!
+> Built by Interns in Just 8 Days!
 
 ---
 
 ## 👨‍🏫 About This Project
 
-This website is a **landing page** built by a group of students who started from **zero coding knowledge**. In just **8 days**, they learned HTML & CSS and applied their skills to build a visually appealing and responsive restaurant website.
+This website is a **landing page** built by a group of students who started from **zero web coding knowledge**. In just **8 days**, they learned HTML & CSS and applied their skills to build a visually appealing and responsive restaurant website.
 
 I guided them through each step, from understanding the basics to structuring, styling, and polishing the final design.
 
@@ -25,9 +25,9 @@ I guided them through each step, from understanding the basics to structuring, s
 
 ## 🎯 Skills Learned
 
-- HTML5 semantic tags (`<section>`, `<header>`, `<footer>`, etc.)
-- CSS layout using **Flexbox**
-- Responsive design using **media queries**
+- HTML5 semantic tags
+- CSS layout using
+- Responsive design
 - Color variables and modern typography
 - Image optimization and button hover effects
 - Building confidence by working on a **real-world project**
@@ -44,9 +44,7 @@ The full design was shared via **Canva** and used as a visual blueprint for the 
 ---
 
 ## 🚀 Live Preview
-
-> *(Optional: add link if deployed on GitHub Pages, Netlify, or Vercel)*  
-> https://your-username.github.io/tsb-landing/
+> https://tsb-hazel.vercel.app/
 
 ---
 
@@ -61,14 +59,13 @@ The full design was shared via **Canva** and used as a visual blueprint for the 
 
 ## 👨‍🎓 Interns' Effort
 
-> These students had no prior coding background. After just 8 days of dedicated learning and practice, they delivered this polished landing page. It's a proud moment that showcases the power of consistent practice, mentorship, and teamwork. 💪
+> I'm incredibly proud of these students! With no prior web coding experience, they built this polished landing page after just 8 days of focused learning and hard work. Their dedication, teamwork, and growth truly show what’s possible with the right guidance and consistency. 💪
 
 ---
 
 ## 🙌 Instructor
 
 **Omar Diab**  
-Frontend Developer & Mentor  
-GitHub: [@Omar-Diab](https://github.com/Omar-Diab)
+LinkedIn: [@Omar-Diab](https://www.linkedin.com/in/omardiab1/)
 
 ---
