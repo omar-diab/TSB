@@ -34,15 +34,6 @@ I guided them through each step, from understanding the basics to structuring, s
 
 ---
 
-## 🖼️ Design Reference
-
-The full design was shared via **Canva** and used as a visual blueprint for the entire website.
-
-📎 **Design Screenshot**:  
-![Design Preview](./TSB-lightMode.png)
-
----
-
 ## 🚀 Live Preview
 > https://tsb-hazel.vercel.app/
 
