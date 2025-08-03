@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/icon.svg">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TSB</title>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="logo">TSB</div>
+
+        <div class="burger-menu"><i class="fa-solid fa-bars"></i></div>
+
+        <nav>
+            <ul>
+                <li><a href="/index.html" class="active">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="/html/contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-moon" id="theme-toggle"></i>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Main Start -->
+    <main class="pt-10 px-4 bg-[var(--background-light-color)] dark:bg-[var(--background-light-color)]">
+        <section class="min-h-screen flex items-center justify-center py-10">
+            <div class="flex items-start justify-center max-md:flex-wrap max-w-5xl w-full p-10 gap-10">
+                <!-- Left side -->
+                <div class="w-full md:w-3/4">
+                    <h2 class="heading-text">Contact <span>Us</span></h2>
+                    <p class="main-p">We’d love to hear from you. Fill out the form and we’ll be in touch!</p>
+                    <div id="contact-icons" class="flex gap-5 text-2xl text-[var(--p-color)] dark:text-[var(--p-color)] mt-5"></div>
+                </div>
+
+                <!-- Right Side -->
+                <form id="contact-form" class="w-full"></form>
+            </div>
+        </section>
+    </main>
+    <!-- Main End -->
+    <!-- Footer Start -->
+    <footer class="footer" id="contact">
+        <h3>Swing by soon!</h3>
+        <div class="footer-infos-container">
+            <div class="footer-info">
+                <h4>The Sunday Bite</h4>
+                <p>123 Anywhere St., Any City, State, Country 12345</p>
+            </div>
+            <div class="footer-info">
+                <h4>Email Address</h4>
+                <p>hello@reallygreatsite.com</p>
+            </div>
+            <div class="footer-info">
+                <h4>Phone Number</h4>
+                <p>(123) 456 7890</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+</body>
+<script src="/js/main.js"></script>
+<script src="/js/contact.js"></script>
+
+</html>

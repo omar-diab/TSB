@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/images/icon.svg">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,15 +22,15 @@
 
         <nav>
             <ul>
-                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="/index.html" class="active">HOME</a></li>
                 <li><a href="#menu">MENU</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="/html/contact.html">CONTACT</a></li>
             </ul>
         </nav>
 
         <div class="icons">
             <i class="fa-solid fa-cart-shopping"></i>
-            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-moon" id="theme-toggle"></i>
         </div>
     </header>
     <!-- Header End -->
@@ -73,31 +74,7 @@
                         been our only
                         advertisement - but happy mouths are the best ambassadors!</p>
                 </div>
-                <div class="taste-features">
-                    <div class="taste-feature">
-                        <h3>1</h3>
-                        <div class="feature-text">
-                            <h4>Fresh, Seasonal Ingredients</h4>
-                            <p>Our menu follows the seasons, featuring the best local produce available</p>
-                        </div>
-                    </div>
-                    <div class="taste-feature">
-                        <h3>2</h3>
-                        <div class="feature-text">
-                            <h4>Comfort Food, Elevated</h4>
-                            <p>We have simple crowd-favorites on the menu - but we do them well. Our flavors stand out,
-                                guaranteed.</p>
-                        </div>
-                    </div>
-                    <div class="taste-feature">
-                        <h3>3</h3>
-                        <div class="feature-text">
-                            <h4>Better Beverages </h4>
-                            <p>We're your cafe and barista in one, serving your favorite cuppa by sun-up, and your
-                                cocktail-of-choice by sundown.</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="taste-features" id="taste-features"></div>
             </div>
         </section>
         <!-- Taste Section -->
@@ -108,31 +85,7 @@
                     <h2 class="heading-text">On the <br><span>Menu</span></h2>
                     <button class="btn">View full menu</button>
                 </div>
-                <div class="menu-img-container">
-                    <div class="menu-item-container">
-                        <img src="/images/menu-section-burgers.jpg" alt="Burgers">
-                        <div class="menu-img-text">
-                            <h4>Burgers</h4>
-                            <p>Packed with flavor and cooked to perfection</p>
-                        </div>
-                    </div>
-                    <div class="menu-item-container">
-                        <img src="/images/menu-dection-wings.jpg" alt="Wings">
-                        <div class="menu-img-text">
-                            <h4>Wings</h4>
-                            <p>Paired with dipping sauces
-                                that are too good to pass up</p>
-                        </div>
-                    </div>
-                    <div class="menu-item-container">
-                        <img src="/images/menu-section-drinks.jpg" alt="Drinks">
-                        <div class="menu-img-text">
-                            <h4>Drinks</h4>
-                            <p>Choose from classic blends
-                                and unique concoctions</p>
-                        </div>
-                    </div>
-                </div>
+                <div  class="menu-img-container" id="menu-container"></div>
             </div>
         </section>
         <!-- Menu Section -->
@@ -140,32 +93,7 @@
         <section class="community">
             <div class="community-container">
                 <h2 class="heading-text">From Our <span>Community</span></h2>
-                <div class="community-people">
-                    <div class="community-person">
-                        <img src="/images/person-1.jpg" alt="person-1">
-                        <div class="community-person-text">
-                            <h5>Mara, TSB regular since 2015</h5>
-                            <p>TSB is a huge part of my life. The staff feels like family, and they know just how I like
-                                my coffee - and my gourmet burger fix!</p>
-                        </div>
-                    </div>
-                    <div class="community-person">
-                        <img src="/images/person-2.jpg" alt="person-2">
-                        <div class="community-person-text">
-                            <h5>Brock, new in town</h5>
-                            <p>I stumbled upon TSB when I was exploring my new neighborhood. Everyone was so friendly,
-                                and the food was delish! Will be back.</p>
-                        </div>
-                    </div>
-                    <div class="community-person">
-                        <img src="/images/person-3.jpg" alt="person-3">
-                        <div class="community-person-text">
-                            <h5>Steffi, lives around the corner</h5>
-                            <p>So glad to have a neighborhood cafe, hangout spot, and bar all in one and nearby! Comfort
-                                food in a comforting atmosphere - need I say more?</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="community-people" id="community-container"></div>
                 <button class="btn">SEE MORE</button>
             </div>
         </section>
@@ -192,10 +120,7 @@
     </footer>
     <!-- Footer End -->
 </body>
-<script>
-    document.querySelector('.burger-menu').onclick = () => {
-        document.querySelector('nav').classList.toggle('active');
-    };
-</script>
+<script src="/js/main.js"></script>
+<script src="/js/home.js"></script>
 
 </html>
