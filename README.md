@@ -35,7 +35,7 @@ I guided them through each step, from understanding the basics to structuring, s
 ---
 
 ## 🚀 Live Preview
-> https://tsb-hazel.vercel.app/
+> https://tsb-seven.vercel.app/
 
 ---
 
