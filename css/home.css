@@ -265,12 +265,6 @@
     background-color: var(--background-2-light-color);
     padding: 15px;
     border-radius: 15px;
-    cursor: pointer;
-    transition: all 0.3 ease-in-out;
-}
-
-.menu-img-container .menu-item-container .menu-img-text:hover {
-    background-color: var(--primary-color);
 }
 
 .menu-img-text h4 {
